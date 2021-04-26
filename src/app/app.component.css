@@ -1,0 +1,37 @@
+.border{
+    border-radius: 10px;
+    background-color: #D3D3D3;
+}.row{
+    margin: 30px 10px;  
+}
+.btn1{
+    background-color: white;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+.active, .btn1:hover{
+    background-color: #0000FF;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+p{
+    margin-top: 40px;
+    font-size: 18;
+    text-align: center;
+}
+.border1{
+    text-align: center;
+    font-size: 20px;
+    background-color:#0000FF;
+    color: white;
+}
+.btn{
+    color: #0000FF;
+    background: white;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}

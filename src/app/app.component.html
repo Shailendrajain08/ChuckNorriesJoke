@@ -1,0 +1,22 @@
+<div class="container">
+  <h1>Chuck Norries</h1>
+
+  <div class="border border-body text-dark">
+    <div class="row">
+      <div class="col-3" *ngFor="let cat of categories">
+        <button type="button" class="btn btn-default btn1 shadow p-3 mb-5  rounded  btn-block"
+          (click)="selectCategory(cat)">{{cat}}</button>
+      </div>
+    </div>
+
+  </div>
+  <div *ngIf="isCategorySelected">
+    <p>Selected Category: {{category|uppercase}}</p>
+    <div class="border border-primary border1">
+      {{jokeInfo.value}}
+    </div>
+  </div>
+  <div class="col-md-12 text-center button2">
+    <button type="button" class="btn btn-default " (click)="getNewJoke()">New Joke</button>
+  </div>
+</div>
